@@ -1,0 +1,11 @@
+.headline {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+    .headline{
+        /* display: flex; */
+        flex-direction: column;
+    }
+}

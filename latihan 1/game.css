@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(22, 23, 43);
+}
+#score_bar{
+    border: 1px solid white;
+}
+#background{
+    position: absolute;
+    border: 1px solid white;
+    left: 40%;
+}
+#piano{
+    position: absolute;
+    border: 1px solid white;
+    left: 40%;
+}
+#keys{
+    border: 1px solid white;
+    position: absolute;
+    top: 615px;
+    left: 40%;
+}
+#rules{
+    position: absolute;
+    border: 1px solid white;
+    right: 10px;
+}
+
+#btn{
+    position: absolute;
+    top: 610px;
+    left: 1;
+    width: 300px;
+    height: 50px;
+}
+
+#btn_start{
+    position: relative;
+    top: 20%;
+    left: 27%;
+    display: block;
+    font-size: 1.3em;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    text-align: center;
+    background-color: #eaea;
+    transition:  0.9s, 0.9s;
+    cursor: pointer;
+    color: white;
+}
+
+#btn_start:hover{
+    transform: scale(1.03);
+}
